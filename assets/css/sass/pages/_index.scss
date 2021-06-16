@@ -11,5 +11,19 @@
 
 .header_h1{
     font-family: $font-dancing;
-    font-size: $font-xlarge;
+    font-size: $fontsize-xlarge;
 }
+
+.navbar{
+    background-color: $color-verdementa;
+    font-family: $font-indie;
+    font-weight: $font-regular;
+    font-size: $fontsize-medium;
+    padding: 0% 3%;
+    &-brand{
+        //font-family: $font-merry;
+        font-weight: $font-bold;
+        font-size: $fontsize-large;
+    }
+}
+
