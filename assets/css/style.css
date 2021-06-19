@@ -10729,6 +10729,70 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+}
+body img {
+  width: 100%;
+}
+
+.header {
+  background-image: url("./assets/img/header.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+
+.header-bloque {
+  width: 30%;
+}
+
+.header_h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 80px;
+  font-weight: 900;
+  color: #C9C7FD;
+}
+
+.destacados {
+  background-color: #f3f1d6;
+  height: 100vh;
+}
+.destacados h2, .destacados .h2 {
+  color: #97F0BD;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+.destacados hr {
+  color: #F09E97;
+  height: 2px;
+}
+
+.header-boton {
+  width: 8rem;
+  position: absolute;
+  left: 80%;
+  color: #F09E97;
+}
+
+.card-boton {
+  background-color: #FFF;
+  color: #F09E97;
+}
+
+.card-body {
+  background-color: #FFF;
+}
+
+.card-title {
+  color: #F09E97;
+  font-family: "Merriweather", serif;
+}
+
 .header {
   background-image: url("https://www.minimi.be/wp-content/uploads/2020/03/107675467_m.jpg");
   height: 80vh;
