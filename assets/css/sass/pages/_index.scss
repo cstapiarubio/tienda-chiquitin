@@ -1,3 +1,4 @@
+//header
 .header{
     background-image: url("https://www.minimi.be/wp-content/uploads/2020/03/107675467_m.jpg");
     height: 80vh;
@@ -11,5 +12,40 @@
 
 .header_h1{
     font-family: $font-dancing;
-    font-size: $font-xlarge;
+    font-size: $fontsize-xlarge;
 }
+
+//navbar
+.navbar{
+    background-color: $color-verdementa;
+    font-family: $font-indie;
+    font-weight: $font-regular;
+    font-size: $fontsize-medium;
+    padding: 0% 3%;
+    &-brand{
+        font-weight: $font-bold;
+        font-size: $fontsize-large;
+    }
+}
+
+//footer
+.footer{
+    background-color: $color-verdementa;
+    font-family: $font-indie;
+    &_h5{
+        padding-top: 5%;
+        font-size: $fontsize-large;
+        font-weight: $font-regular;
+    }
+    &_lista{
+        padding-left:30%;
+    }
+    &_item{
+        display:inline-block;
+        padding:5%;
+    }
+    i{
+        width:50%;
+    }
+}
+

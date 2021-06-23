@@ -10809,4 +10809,36 @@ body img {
   font-size: 80px;
 }
 
+.navbar {
+  background-color: #B0F0CC;
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0% 3%;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.footer {
+  background-color: #B0F0CC;
+  font-family: "Indie Flower", cursive;
+}
+.footer_h5 {
+  padding-top: 5%;
+  font-size: 40px;
+  font-weight: 400;
+}
+.footer_lista {
+  padding-left: 30%;
+}
+.footer_item {
+  display: inline-block;
+  padding: 5%;
+}
+.footer i {
+  width: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */
