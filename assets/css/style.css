@@ -10736,10 +10736,11 @@ body {
 }
 body img {
   width: 100%;
+  height: auto;
 }
 
 .header {
-  background-image: url("./assets/img/header.jpg");
+  background-image: url("/assets/img/header2.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -10752,9 +10753,10 @@ body img {
 
 .header_h1 {
   font-family: "Dancing Script", cursive;
-  font-size: 80px;
+  font-size: 100px;
   font-weight: 900;
-  color: #C9C7FD;
+  -webkit-text-stroke: 1px #F09E97;
+  color: #B0F0CC;
 }
 
 .destacados {
@@ -10776,12 +10778,13 @@ body img {
   width: 8rem;
   position: absolute;
   left: 80%;
-  color: #F09E97;
+  color: #B0F0CC;
+  background-color: #F09E97;
 }
 
 .card-boton {
   background-color: #FFF;
-  color: #F09E97;
+  color: #B0F0CC;
 }
 
 .card-body {
@@ -10793,13 +10796,13 @@ body img {
   font-family: "Merriweather", serif;
 }
 
-.header {
-  background-image: url("https://www.minimi.be/wp-content/uploads/2020/03/107675467_m.jpg");
-  height: 80vh;
-  background-size: cover;
-  background-position: center;
+/*.header{
+    background-image: url("https://www.minimi.be/wp-content/uploads/2020/03/107675467_m.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
 }
-
+*/
 .header_bloque {
   vertical-align: middle;
 }
@@ -10819,6 +10822,9 @@ body img {
 .navbar-brand {
   font-weight: 700;
   font-size: 40px;
+}
+.navbar .navbar-brand {
+  color: #F09E97;
 }
 
 .footer {
